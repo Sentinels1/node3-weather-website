@@ -22,7 +22,9 @@ const forecast = (latitude, longitude, callback) => {
           body.current.feelslike +
           " degress out." +
           " And Cloudcover is about " +
-          body.current.cloudcover
+          body.current.cloudcover +
+          ". And humidity is about " +
+          body.current.humidity
       );
     }
   });

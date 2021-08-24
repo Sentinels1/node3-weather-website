@@ -1,5 +1,3 @@
-// console.log("Hello World!");
-
 // const e = require("express");
 
 // fetch("https://puzzle.mead.io/puzzle").then((response) => {

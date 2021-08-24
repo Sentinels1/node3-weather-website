@@ -20,7 +20,9 @@ const forecast = (latitude, longitude, callback) => {
           body.current.temperature +
           " degress out. But it feels like " +
           body.current.feelslike +
-          " degress out."
+          " degress out." +
+          " And Cloudcover is about " +
+          body.current.cloudcover
       );
     }
   });
